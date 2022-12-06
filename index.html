@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balbikash Quiz Game</title>
+    <style>
+        
+        .maindiv{
+            width: 99%;
+            height: 730px;
+            position: absolute;
+            left: 2px;
+            top: 10px;
+            box-shadow: 1px 2px 8px 5px rgb(246, 246, 11) ;
+            border:5px solid red ;
+            background-image: url('images/saib.jpg');
+            background-size: 100% 100%;
+            
+            animation: slider2 10s infinite linear;
+        }
+        /*@keyframes slider2{
+            0%{background-image: url('images/flower2.jpg');}
+            35%{background-image: url('images/nature.jpg');}
+            70%{background-image: url('images/sky.jpg');}
+        }*/
+
+        
+        h1{
+            font-size: 2.1rem;
+            line-height: 1.4;
+            text-align: center;
+            color: white;
+            margin-top: 30px;
+            color: yellow;
+        }
+        /*.slider{
+            width: 50%;
+            height: 430px;
+            position: absolute;
+            left: 50%;
+            top: 55%;
+            transform: translate(-50%, -50%);
+            background-image: url('images/s1.jpg');
+            background-size: 100% 100%;
+            box-shadow: 1px 2px 8px 4px white ;
+            animation: slider 9s infinite linear;
+
+        }*/
+        /*@keyframes slider{
+            0%{background-image: url('images/s1.jpg');}
+            35%{background-image: url('images/s2.jpg');}
+            75%{background-image: url('images/s3.jpg');}
+        }*/
+        .start button{
+            background-color:black;
+            font-size: 20px;
+            text-align: center;
+            color: white;
+            padding: 10px 20px;
+            position: absolute;
+            left: 82%;
+            top: 50%;
+            font-weight: 400px;
+            text-transform: uppercase;
+            cursor: pointer;
+            Border : 4px solid #15f4ee;
+            border-radius: 100px;
+            transition:1.5s;
+            letter-spacing: 1px;
+            animation: animate 4s infinite linear;
+
+        }
+        @keyframes animate{
+            0%{background-color : red ;}
+            20%{background-color : green ;} 
+            40%{background-color : black ;}
+            60%{background-color : blue ;}
+            80%{background-color : orange ;}
+            100%{background-color : purple ;}
+        }
+        
+
+
+    </style>
+</head>
+<body>
+<div class="maindiv">
+
+   <div class="heading"><h1>ॐ श्री साई राम<br>आध्यात्मिक हाजिरीजवाफ प्रतियोगिता २०७९</h1></div>
+   <div class="slider"></div>
+   <div class="start"><a href="list.html"><button>Start Game</button></a></div>
+
+   
+</div>
+    
+</body>
+</html>
